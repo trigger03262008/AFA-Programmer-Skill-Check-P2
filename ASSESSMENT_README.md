@@ -9,7 +9,7 @@ Unity / C#の基礎と、Inspectorから設定する敵移動を確認する課�
 
 ## 開き方と操作
 
-1. Unity Hubにこのリポジトリのルート（Assets / Packages / ProjectSettingsがあるフォルダ）を追加し、Unity **6000.3.23f1**で開きます。
+1. Unity Hubにこのリポジトリのルート（Assets / Packages / ProjectSettingsがあるフォルダ）を追加し、Unity **6000.6.8f1**で開きます。
 2. インポートとコンパイルが終わったら、上部メニュー **AFA → P2課題を開く** を選択します。
 3. または `Assets/_AFA/Assessments/P2/Scenes/P2_SkillCheck.unity` をProject欄でダブルクリックします。
 4. ▶で再生します。Gameタブが小さい場合はタブをダブルクリックして拡大できます。
