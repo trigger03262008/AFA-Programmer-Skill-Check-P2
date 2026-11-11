@@ -1,0 +1,46 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="P2SkillCheck.uss" />
+    <ui:ScrollView class="page">
+        <ui:VisualElement class="card">
+            <ui:Label text="AFA / PROGRAMMER ASSESSMENT" class="eyebrow" />
+            <ui:Label text="AFA Programmer Skill Check" class="title" />
+            <ui:Label text="P2  |  敵移動 / Inspector設定" class="subtitle" />
+            <ui:VisualElement class="timing">
+                <ui:Label text="共通 45分" /><ui:Label text="担当別 25分" /><ui:Label text="口頭・変更 20分" />
+            </ui:VisualElement>
+            <ui:Label text="ひな形：ボタン配線済み / 課題のゲーム処理は未実装" class="notice-banner" />
+            <ui:VisualElement class="stats">
+                <ui:Label name="turn-label" text="ターン  1" class="stat" />
+                <ui:Label name="hp-label" text="敵HP  5" class="stat" />
+                <ui:Label name="position-label" text="敵進行位置  0" class="stat" />
+                <ui:Label name="defense-label" text="防衛HP  3" class="stat" />
+            </ui:VisualElement>
+            <ui:VisualElement class="enemy-panel">
+                <ui:Image name="enemy-image" class="enemy-image" />
+                <ui:VisualElement class="enemy-description">
+                    <ui:Label text="確認用の敵" class="section-title" />
+                    <ui:Label text="開始HP 5 / 攻撃ダメージ 2 / 防衛地点 3以上" />
+                    <ui:Label text="現在位置の枠が強調表示されます。3を超えた位置も右端で表示します。" class="wrap" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="track">
+                <ui:VisualElement name="cell-0" class="cell current-cell"><ui:Label text="0" /><ui:Label text="開始位置" /></ui:VisualElement>
+                <ui:VisualElement name="cell-1" class="cell"><ui:Label text="1" /><ui:Label text="進行マス" /></ui:VisualElement>
+                <ui:VisualElement name="cell-2" class="cell"><ui:Label text="2" /><ui:Label text="進行マス" /></ui:VisualElement>
+                <ui:VisualElement name="cell-3" class="cell"><ui:Label text="3+" /><ui:Label text="防衛地点" /></ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="actions">
+                <ui:Button name="attack-button" text="攻撃" class="primary" />
+                <ui:Button name="end-turn-button" text="ターン終了" />
+                <ui:Button name="reset-button" text="リセット" />
+            </ui:VisualElement>
+            <ui:Label name="notice-label" text="ボタンを押すと、ここで配線を確認できます。初期状態では数値は変化しません。" class="feedback" />
+            <ui:VisualElement class="role-panel">
+                <ui:Label text="P2の追加課題：敵移動 / Inspector設定" class="section-title" />
+                <ui:Label text="移動速度をInspectorから変更できるようにしてください。" class="role-detail" />
+            </ui:VisualElement>
+            <ui:Label text="編集先：P2/Scripts/P2SkillCheckController.cs のTODO" class="footer" />
+            <ui:Label text="最初の70分：生成AIによるコード作成は禁止。公式ドキュメント・一般資料は参照可。" class="footer wrap" />
+        </ui:VisualElement>
+    </ui:ScrollView>
+</ui:UXML>

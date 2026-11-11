@@ -1,0 +1,33 @@
+# Unityが再生成するキャッシュ
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/TestResults/*.log
+# 実行環境の絶対パスを含む生成結果はローカルに保持する
+/TestResults/*.xml
+# IDEの個人設定・生成ファイル
+/.vs/
+/.idea/
+/.vscode/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+sysinfo.txt
+crashlytics-build.properties
+.DS_Store
+Thumbs.db
+# Assets配下の.meta、Packages、ProjectSettingsは必ず追跡する

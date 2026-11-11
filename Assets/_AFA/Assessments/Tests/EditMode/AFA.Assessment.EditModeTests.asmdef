@@ -1,0 +1,5 @@
+{
+  "name": "AFA.Assessment.EditModeTests",
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

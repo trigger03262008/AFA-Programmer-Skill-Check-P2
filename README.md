@@ -1,0 +1,24 @@
+# AFA Programmer Skill Check P2
+
+**共通課題45分 + P2（敵移動・Inspector設定）25分 + 口頭確認20分**のUnity課題ひな形です。
+課題用のUI・シーン・参照設定を用意しています。受験者が実装するゲーム処理はTODOのままで、解答は含みません。
+
+## 起動
+
+1. このリポジトリをclone、またはCode → Download ZIPで取得して展開します。
+2. Unity Hubでルートフォルダを追加し、**Unity 6000.3.23f1**で開きます。
+3. 読み込み完了後、上部メニュー **AFA → P2課題を開く** を選び、▶を押します。
+
+シーンを直接開く場合は `Assets/_AFA/Assessments/P2/Scenes/P2_SkillCheck.unity` です。
+空のUntitledシーンでは何も表示されません。Gameタブをダブルクリックすると表示を拡大できます。
+ボタンでメッセージだけが変わり、数値が変わらないのは未実装のひな形として正常です。
+
+## 資料
+
+- [受験者向け仕様・AI利用ルール・提出方法](ASSESSMENT_README.md)
+- [採点基準・手動テスト・口頭質問](ASSESSMENT_RUBRIC.md)
+- [提出メモ](Assets/_AFA/Assessments/P2/SUBMISSION.md)
+- [検証記録](VALIDATION.md)
+
+`main`は配布版、`assessment/p2`は受験作業の開始用です。画像を含め通常のGitで取得でき、Git LFSは不要です。
+日本語表示はOSフォントを使用します。Windowsで検証しています。他OSでは日本語対応フォントが必要です。

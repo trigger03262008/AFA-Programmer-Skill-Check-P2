@@ -1,0 +1,28 @@
+.page { flex-grow: 1; background-color: rgb(13, 21, 34); color: rgb(226, 234, 245); }
+.card { margin-top: 6px; margin-bottom: 6px; margin-left: 32px; margin-right: 32px; padding: 18px; background-color: rgb(23, 35, 52); border-radius: 12px; }
+.eyebrow { font-size: 12px; color: rgb(89, 210, 198); margin-bottom: 4px; }
+.title { font-size: 24px; -unity-font-style: bold; }
+.subtitle { font-size: 18px; color: rgb(175, 194, 216); margin-top: 6px; }
+.timing { flex-direction: row; margin-top: 8px; margin-bottom: 6px; }
+.timing > Label { margin-right: 20px; padding: 5px 10px; background-color: rgb(37, 52, 73); border-radius: 4px; }
+.notice-banner { color: rgb(255, 219, 146); white-space: normal; margin-bottom: 8px; }
+.stats { flex-direction: row; flex-wrap: wrap; }
+.stat { flex-grow: 1; min-width: 130px; padding: 10px 10px; margin-right: 8px; margin-bottom: 8px; background-color: rgb(13, 24, 39); border-radius: 6px; font-size: 19px; }
+.enemy-panel { flex-direction: row; align-items: center; margin-top: 6px; margin-bottom: 6px; }
+.enemy-image { width: 54px; height: 54px; margin-right: 18px; -unity-background-scale-mode: scale-to-fit; }
+.enemy-description { flex-grow: 1; flex-shrink: 1; }
+.section-title { font-size: 18px; -unity-font-style: bold; margin-bottom: 6px; }
+.wrap { white-space: normal; }
+.track { flex-direction: row; margin-top: 6px; margin-bottom: 12px; }
+.cell { flex-grow: 1; flex-basis: 0; height: 60px; margin-right: 8px; justify-content: center; align-items: center; background-color: rgb(35, 49, 68); border-width: 2px; border-color: rgb(65, 83, 106); border-radius: 6px; }
+.current-cell { background-color: rgb(22, 76, 81); border-color: rgb(88, 220, 202); }
+.actions { flex-direction: row; }
+.actions > Button { flex-grow: 1; flex-basis: 0; height: 40px; margin-right: 8px; background-color: rgb(52, 72, 99); color: rgb(245, 248, 255); border-width: 0; border-radius: 5px; font-size: 18px; }
+.actions > .primary { background-color: rgb(35, 137, 130); }
+.actions > Button:hover { background-color: rgb(72, 106, 142); }
+.actions > Button:disabled { background-color: rgb(42, 48, 58); color: rgb(128, 139, 154); }
+.feedback { margin-top: 6px; margin-bottom: 8px; white-space: normal; color: rgb(176, 199, 225); }
+.role-panel { padding: 8px; border-width: 1px; border-color: rgb(57, 81, 107); border-radius: 6px; margin-bottom: 8px; }
+.role-detail { white-space: normal; }
+ProgressBar { height: 28px; }
+.footer { font-size: 13px; color: rgb(159, 177, 198); margin-bottom: 4px; }

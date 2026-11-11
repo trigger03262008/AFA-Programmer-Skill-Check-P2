@@ -1,0 +1,6 @@
+{
+  "name": "AFA.Assessment.Editor",
+  "includePlatforms": [
+    "Editor"
+  ]
+}

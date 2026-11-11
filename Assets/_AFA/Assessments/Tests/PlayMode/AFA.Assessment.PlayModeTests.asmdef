@@ -1,0 +1,4 @@
+{
+  "name": "AFA.Assessment.PlayModeTests",
+  "optionalUnityReferences": ["TestAssemblies"]
+}
